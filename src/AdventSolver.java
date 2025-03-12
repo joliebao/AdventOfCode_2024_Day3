@@ -9,7 +9,6 @@ public class AdventSolver {
         ArrayList<String> fileData = getFileData("src/InputFile");
         // you now have a list of Strings from the file "InputFile"
 
-        System.out.println(fileData);
         AdventDay num3 = new AdventDay(fileData);
         System.out.println(num3.Multiply());
     }
